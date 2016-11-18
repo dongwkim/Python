@@ -26,7 +26,8 @@ def calclist():
         try:
           read = input("Enter a Number: ")
           if read == 'done':
-            print('Sum: %d' % total, 'Count: %d' % count, 'Average: %.3f' % avg, 'Max: %d' % maxiest , 'Min: %d' % smallest)
+            # print('Sum: %d' % total, 'Count: %d' % count, 'Average: %.3f' % avg, 'Max: %d' % maxiest , 'Min: %d' % smallest)
+            print("Sum: {:d} Count: {:d} Average: {:d} Max: {:d} Min: {:d}".format(total,count,avg,maxiest,smallest))
             break
           read = int(read)
           #format(read, 'd')
